@@ -1,7 +1,7 @@
-module h_add(A,B,carryOUT,sum);
+module H_ADD(a,b,carryOUT,sum);
  
 //define_var
- input A,B;
+ input a,b;
  output carryOUT,sum; 
  wire w1,w2,w3,w4;
  
