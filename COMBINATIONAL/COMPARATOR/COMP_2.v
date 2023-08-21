@@ -1,3 +1,4 @@
+//start
 module COMP_2 (out,a_in,b_in);
 
 //declare
@@ -13,4 +14,5 @@ module COMP_2 (out,a_in,b_in);
  //A>B
  assign out[2]=(a_in[1]&~b_in[1]) | (~a_in[1]&~b_in[1]&a_in[0]&~b_in[0]) | (a_in[1]&b_in[1]&a_in[0]&~b_in[0]);
 
+ //esc
 endmodule
